@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/css/gotham-cufonfonts-webfont/gothambook.woff") format("woff");
+}
+
+body{
+    background: #231AE5;
+    display: flex;
+    justify-content: center;
+}
+
+.header1{
+    flex-grow: 1;
+    height: 105px;
+    background: #ffff;
+    left: 0px;
+    top: 0px;
+}
+
+.point{
+    position: absolute;
+    left: 450px;
+    top: 48px;
+    height: 7px;
+    width: 7px;
+    background: #000000;
+
+}
+
+h1{
+    position: absolute;
+    font-size: 30px;
+    left: 30px;
+    top: 40px;
+    font-family: "Gotham";
+    font-weight: 500;
+}
+h2{
+    position: absolute;
+    font-size: 15px;
+    top: 65px;
+    left: 30px;
+    font-family: "Gotham";
+    font-weight: 200;
+}
+
+
+.header2{
+    flex-grow: 1;
+    display: flex;
+    height: 105px;
+    right: 0px;
+    top: 0px;
+    background: #000000;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    position: absolute;
+    background: #ffffff;
+    width: 518px;
+    height: 518px;
+    right: 600px;
+    bottom: 200px;
+    box-shadow: 0px 0px 5px 0,2em black;
+    -webkit-box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.18);
+}
+
+h3{
+    font-family: "Gotham";
+    font-weight: 100px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hr1{
+    width: 25px;
+    position: absolute;
+    top: 54px;
+    left: 22px;
+    border: 3px solid;
+}
+
+.info1{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 100px;
+    font-family: "Gotham";
+    font-weight: 100;
+}
+.info2{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 125px;
+    font-family: "Gotham";
+    font-weight: 100;
+}
+.info3{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 150px;
+    font-family: "Gotham";
+    font-weight: 100;
+}
+.info4{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 175px;
+    font-family: "Gotham";
+    font-weight: 100;
+}
+.info5{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 200px;
+    font-family: "Gotham";
+    font-weight: 100;
+}
+
+.fa-twitter{
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    right: 265px;
+}
+.fa-twitter:hover{
+    color: #231AE5;
+}
+.fa-spotify{
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    right: 205px;
+}
+.fa-spotify:hover{
+    color: #231AE5;
+}
+
+.fa-telegram-plane{
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    right: 145px;
+}
+.fa-telegram-plane:hover{
+  color: #231AE5;
+}
+.fa-linkedin-in{
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    right: 85px;
+}
+.fa-linkedin-in:hover{
+  color: #231AE5;
+}
+.fa-github{
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    right: 30px;
+}
+.fa-github:hover{
+    color: #231AE5;
+}
+
