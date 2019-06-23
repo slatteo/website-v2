@@ -179,6 +179,7 @@ h3{
     font-size: 2em;
     position: absolute;
     right: 265px;
+    cursor: pointer;
 }
 .fa-twitter:hover{
     color: #231AE5;
@@ -188,6 +189,7 @@ h3{
     font-size: 2em;
     position: absolute;
     right: 205px;
+    cursor: pointer;
 }
 .fa-spotify:hover{
     color: #231AE5;
@@ -198,6 +200,7 @@ h3{
     font-size: 2em;
     position: absolute;
     right: 145px;
+    cursor: pointer;
 }
 .fa-telegram-plane:hover{
   color: #231AE5;
@@ -207,6 +210,7 @@ h3{
     font-size: 2em;
     position: absolute;
     right: 85px;
+    cursor: pointer;
 }
 .fa-linkedin-in:hover{
   color: #231AE5;
@@ -216,8 +220,34 @@ h3{
     font-size: 2em;
     position: absolute;
     right: 30px;
+    cursor: pointer;
 }
 .fa-github:hover{
     color: #231AE5;
 }
 
+.schoolprojects{
+    position: absolute;
+    top: 950px;
+    background: #ffffff;
+    width: 100vw;
+    height: 1080px;
+}
+
+h4{
+    color: #231AE5;
+    font-family: "Gotham";
+    font-weight: 500;
+    font-size: 2em;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.hr2{
+    width: 25px;
+    position: absolute;
+    top: 66px;
+    left: 30px;
+    border: 3px solid #231AE5;
+}
